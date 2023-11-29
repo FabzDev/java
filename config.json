@@ -277,7 +277,6 @@
         "name": "Two Fer",
         "uuid": "74515d45-565b-4be2-96c4-77e58efa9257",
         "practices": [
-          "strings",
           "if-else-statements"
         ],
         "prerequisites": [
@@ -315,12 +314,10 @@
         "name": "Scrabble Score",
         "uuid": "afae9f2d-8baf-4bd7-8d7c-d486337f7c97",
         "practices": [
-          "arrays",
           "switch-statement",
           "chars"
         ],
         "prerequisites": [
-          "arrays",
           "switch-statement",
           "chars"
         ],
@@ -343,7 +340,6 @@
         "name": "Secret Handshake",
         "uuid": "71c7c174-7e2c-43c2-bdd6-7515fcb12a91",
         "practices": [
-          "lists",
           "enums"
         ],
         "prerequisites": [
@@ -453,6 +449,7 @@
           "lists"
         ],
         "prerequisites": [
+          "exceptions",
           "lists"
         ],
         "difficulty": 6
@@ -475,7 +472,6 @@
         "name": "Linked List",
         "uuid": "7ba5084d-3b75-4406-a0d7-87c26387f9c0",
         "practices": [
-          "lists",
           "classes",
           "generic-types"
         ],
@@ -492,8 +488,7 @@
         "uuid": "d916e4f8-fda1-41c0-ab24-79e8fc3f1272",
         "practices": [
           "if-else-statements",
-          "numbers",
-          "strings"
+          "numbers"
         ],
         "prerequisites": [
           "if-else-statements",
@@ -507,14 +502,12 @@
         "name": "Isogram",
         "uuid": "c3e89c7c-3a8a-4ddc-b653-9b0ff9e1d7d8",
         "practices": [
-          "if-else-statements",
-          "for-loops",
-          "strings"
+          "chars"
         ],
         "prerequisites": [
-          "if-else-statements",
+          "chars",
           "for-loops",
-          "strings"
+          "if-else-statements"
         ],
         "difficulty": 4
       },
@@ -523,12 +516,10 @@
         "name": "Pig Latin",
         "uuid": "38bc80ae-d842-4c04-a797-48edf322504d",
         "practices": [
-          "arrays",
           "lists",
           "strings"
         ],
         "prerequisites": [
-          "arrays",
           "lists",
           "strings"
         ],
@@ -539,16 +530,12 @@
         "name": "Anagram",
         "uuid": "fb10dc2f-0ba1-44b6-8365-5e48e86d1283",
         "practices": [
-          "arrays",
-          "if-else-statements",
-          "lists",
-          "for-loops"
+          "chars"
         ],
         "prerequisites": [
-          "arrays",
+          "chars",
           "if-else-statements",
-          "lists",
-          "for-loops"
+          "lists"
         ],
         "difficulty": 7
       },
@@ -557,7 +544,6 @@
         "name": "Reverse String",
         "uuid": "2c8afeed-480e-41f3-ad58-590fa8f88029",
         "practices": [
-          "strings",
           "chars"
         ],
         "prerequisites": [
@@ -570,12 +556,11 @@
         "name": "Darts",
         "uuid": "4d400a44-b190-4a0c-affb-99fad8ea18da",
         "practices": [
-          "if-else-statements",
-          "constructors"
+          "if-else-statements"
         ],
         "prerequisites": [
           "if-else-statements",
-          "constructors"
+          "numbers"
         ],
         "difficulty": 2
       },
@@ -584,12 +569,10 @@
         "name": "D&D Character",
         "uuid": "09bb515c-0270-4d34-8d56-89ee04588494",
         "practices": [
-          "arrays",
           "constructors",
           "randomness"
         ],
         "prerequisites": [
-          "arrays",
           "constructors",
           "randomness"
         ],
@@ -664,8 +647,7 @@
         "name": "Diamond",
         "uuid": "ecbd997b-86f4-4e11-9ff0-706ac2899415",
         "practices": [
-          "for-loops",
-          "lists"
+          "for-loops"
         ],
         "prerequisites": [
           "lists"
@@ -681,7 +663,8 @@
         ],
         "prerequisites": [
           "for-loops",
-          "arrays"
+          "arrays",
+          "strings"
         ],
         "difficulty": 4
       },
@@ -694,7 +677,8 @@
         ],
         "prerequisites": [
           "for-loops",
-          "arrays"
+          "arrays",
+          "strings"
         ],
         "difficulty": 4
       },
@@ -728,6 +712,7 @@
           "strings"
         ],
         "prerequisites": [
+          "for-loops",
           "strings"
         ],
         "difficulty": 6
@@ -737,10 +722,11 @@
         "name": "Food Chain",
         "uuid": "dd3e6fd6-5359-4978-acd7-c39374cead4d",
         "practices": [
-          "arrays"
+          "strings"
         ],
         "prerequisites": [
-          "arrays"
+          "for-loops",
+          "strings"
         ],
         "difficulty": 6
       },
@@ -749,8 +735,7 @@
         "name": "House",
         "uuid": "6b51aca3-3451-4a64-ad7b-00b151d7548a",
         "practices": [
-          "strings",
-          "for-loops"
+          "strings"
         ],
         "prerequisites": [
           "strings",
@@ -763,7 +748,7 @@
         "name": "ISBN Verifier",
         "uuid": "838bc1d7-b2de-482a-9bfc-c881b4ccb04c",
         "practices": [
-          "strings"
+          "chars"
         ],
         "prerequisites": [
           "chars",
@@ -776,11 +761,12 @@
         "name": "Largest Series Product",
         "uuid": "b7310b6e-435c-4d5f-b2bd-31e586d0f238",
         "practices": [
-          "strings"
+          "numbers"
         ],
         "prerequisites": [
           "chars",
           "numbers",
+          "exceptions",
           "for-loops"
         ],
         "difficulty": 4
@@ -790,11 +776,12 @@
         "name": "Luhn",
         "uuid": "5227a76c-8ecb-4e5f-b023-6af65a057c41",
         "practices": [
-          "strings"
+          "chars"
         ],
         "prerequisites": [
-          "numbers",
-          "for-loops"
+          "chars",
+          "for-loops",
+          "numbers"
         ],
         "difficulty": 4
       },
@@ -820,7 +807,8 @@
         ],
         "prerequisites": [
           "if-else-statements",
-          "for-loops"
+          "for-loops",
+          "exceptions"
         ],
         "difficulty": 5
       },
@@ -829,7 +817,7 @@
         "name": "Phone Number",
         "uuid": "5f9139e7-9fbb-496a-a0d7-a946283033de",
         "practices": [
-          "strings"
+          "chars"
         ],
         "prerequisites": [
           "chars",
@@ -847,7 +835,8 @@
         ],
         "prerequisites": [
           "lists",
-          "strings"
+          "strings",
+          "exceptions"
         ],
         "difficulty": 5
       },
@@ -869,12 +858,10 @@
         "name": "Allergies",
         "uuid": "6a617ddb-04e3-451c-bb30-27ccd0be9125",
         "practices": [
-          "classes",
-          "enums",
-          "for-loops",
-          "lists"
+          "enums"
         ],
         "prerequisites": [
+          "classes",
           "for-loops",
           "enums"
         ],
